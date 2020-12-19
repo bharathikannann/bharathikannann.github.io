@@ -10166,3 +10166,6 @@ section.resume-section .resume-section-content {
   height: 42;
   width:42
 }
+.card-link:hover{
+  color: red;
+}
