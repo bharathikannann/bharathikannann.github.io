@@ -10114,7 +10114,7 @@ section.resume-section .resume-section-content {
 }
 .credit-courses{
   opacity: 80%;
-  font-size: 0.6rem;
+  font-size: 0.4rem;
 }
 .cursorchange {cursor: zoom-in;}
 
@@ -10149,4 +10149,20 @@ section.resume-section .resume-section-content {
 .iframe-youtube{
   width: 300px;
   height: 200px;
+}
+@media (max-width: 450px){
+  .iframe-youtube{
+  width: 250px;
+  height: 180px;
+}
+@media (max-width: 350px){
+  .iframe-youtube{
+  width: 230px;
+  height: 180px;
+}
+}
+.icons-new{
+  color: red;
+  height: 42;
+  width:42
 }
